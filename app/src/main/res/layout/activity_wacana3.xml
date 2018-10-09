@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wacana3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="316dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/berita3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="429dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="LAS VEGAS – Pertandingan UFC 229 yang mempertemukan Khabib Nurmagomedov dengan Conor McGregor pada Minggu 7 Oktober 2018 siang WIB, di T-Arena, Las Vegas, Amerika Serikat, berakhir ricuh. Khabib Nurmagomedov pun membeberkan alasannya menyerang tim McGregor yang berada di luar arena pertandingan usai dirinya dinyatakan sebagai pemenang. Khabib Nurmagomedov mengatakan hal ini dilakukannya karena tim McGregor melakukan penghinaan terhadap dirinya. Penghinaan tersebut bahkan tidak hanya ditujukan kepada diri petarung asal Rusia itu tetapi juga untuk agamanya, negaranya, dan orangtuanya.  Karena itulah, Khabib Nurmagomedov tak bisa membendung rasa kesalnya. Ia pun memutuskan untuk melompati pagar arena tarung dan menyerang tim McGregor yang tengah berada di sana. Kondisi ini membuat suasana pun menjadi ricuh kala itu. Kekacauan ini baru bisa dihentikan setelah pihak keamanan turun tangan. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+</android.support.constraint.ConstraintLayout>

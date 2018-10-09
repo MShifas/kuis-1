@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="214dp"
+        android:src="@drawable/berita1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="450dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:text='Liputan6.com, Jakarta - Calon wakil presiden Sandiaga Uno mengatakan, harga makan siang di Indonesia lebih mahal dibandingkan negara ASEAN lainnya. "Sepiring makan siang di Jakarta lebih mahal dari sepiring makan siang dengan kualitas yang sama di Singapura, Thailand juga sama," ujar Sandi. Benarkah? Kepala Bidang Statistik Distribusi BPS DKI Jakarta Dewi Kundalini Saraswati menampik pernyataan mantan Wakil Gubernur DKI Jakarta tersebut. "Kayanya nggak juga deh. Apalagi kemarin DKI deflasi, harga beberapa bahan pokok relatif stabil. Dari 9 bahan pokok cuma 2 yang naik dikit, yang lain turun," ujar Dewi saat dihubungi oleh Liputan6.com, Senin (8/10/2018). Berdasarkan data dari Siaran Pers BPS Provinsi DKI Jakarta Oktober 2018, Jakarta mengalami deflasi sebesar 0,13 persen pada September 2018. Angka tersebut menempatkan Jakarta di urutan ke 50 dari 66 kota yang mengalami deflasi. "Ini merupakan kali pertama Jakarta mengalami deflasi sepanjang tahun 2018," ujar kepala BPS Provinsi DKI Jakarta, Thoman Pardosi. '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

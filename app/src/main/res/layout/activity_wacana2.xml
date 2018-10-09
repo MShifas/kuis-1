@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wacana2">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="330dp"
+        android:layout_height="217dp"
+        android:src="@drawable/berita2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="538dp"
+        android:layout_height="271dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text='Liverpool: Pelatih Manchester City, Josep Pep Guardiola, mengaku puas dengan performa anak asuhnya ketika bertamu ke Anfield, markas Liverpool. Mantan pelatih Barcelona itu merasa penampilan The Citizens sangat solid, meski gagal meraih poin penuh. "Kami tidak membiarkan mereka mencetak banyak peluang yang merupakan kunci ketika bertandang ke Anfield dan ini cukup spesial. Kami bermain baik, jika anda ingin menganalisis hasilnya tidak masalah, kami bisa melakukan lebih baik lagi," papar Guardiola di situs resmi klub. "Pada akhirnya, manajer harus menganalisis apa yang telah dilakukan ketika kami merencanakan hal itu, itu hal terpenting. Kami konsisten dan solid," imbuhnya. The Sky Blues sebenarnya memiliki peluang untuk meraih poin penuh jika Riyad Mahrez mengeksekusi penalti dengan baik. Namun Guardiola enggan mengkritisi anak didiknya tersebut. "Dia (Mahrez) memiliki keberanian dan nyali untuk mengambil penalti. Di sesi latihan dia mengeksekusi penalti dengan sempurna dan itu tidak masalah. Pada akhirnya kami tetap meraih poin," tuturnya. Meraih satu poin di Anfield tetap membuat City berada di puncak klasemen. The Citizens unggul agresivitas gol dari Chelsea dan Liverpool, meski memiliki nilai sama, yaitu 20 poin. '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
